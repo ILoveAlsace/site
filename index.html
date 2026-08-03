@@ -19,9 +19,23 @@
   <meta name="twitter:description" content="Trois adresses de caractère au cœur de l’Alsace.">
   <meta name="twitter:image" content="https://pierresvives.com/assets/images/logis/main.jpg">
   <title>I Love Alsace — Gîtes et chambres de caractère</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/images/maison-champignon-logo.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="sitemap" type="application/xml" href="https://pierresvives.com/sitemap.xml">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .brand-mark {
+      overflow: hidden;
+      border-radius: 22%;
+    }
+    .brand-mark .brand-logo {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -99,7 +113,7 @@
   <header class="site-header" id="site-header">
     <a class="brand" href="#/" aria-label="I Love Alsace — accueil">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 64 64" role="img"><path d="M32 55C14 43 7 34 7 23c0-8 6-14 14-14 5 0 9 2 11 7 3-5 7-7 12-7 8 0 14 6 14 14 0 11-8 20-26 32Z"/><path class="brand-river" d="M20 24c7 2 12 7 13 14 1 5 4 8 10 10"/></svg>
+        <img class="brand-logo" src="assets/images/maison-champignon-logo.png" alt="">
       </span>
       <span class="brand-text"><strong>I Love</strong><span>Alsace</span></span>
     </a>
@@ -160,7 +174,7 @@
     <div class="footer-top">
       <div>
         <a class="brand footer-brand" href="#/">
-          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 55C14 43 7 34 7 23c0-8 6-14 14-14 5 0 9 2 11 7 3-5 7-7 12-7 8 0 14 6 14 14 0 11-8 20-26 32Z"/><path class="brand-river" d="M20 24c7 2 12 7 13 14 1 5 4 8 10 10"/></svg></span>
+          <span class="brand-mark" aria-hidden="true"><img class="brand-logo" src="assets/images/maison-champignon-logo.png" alt=""></span>
           <span class="brand-text"><strong>I Love</strong><span>Alsace</span></span>
         </a>
         <p data-i18n="footer.tagline">Trois adresses de caractère au cœur de l’Alsace.</p>
