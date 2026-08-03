@@ -1,0 +1,33 @@
+PIERRESVIVES.COM — DNS BOOKMYNAME POUR GITHUB PAGES
+===================================================
+
+Domaine canonique GitHub Pages : pierresvives.com
+Domaine GitHub d’origine       : ilovealsace.github.io
+TTL conseillé                  : 3600
+
+Dans BookMyName > GÉRER > Personnaliser le contenu de vos DNS
+> Interface utilisateurs avertis, créer exactement :
+
+Nom    TTL    Type     Valeur
+@      3600   A        185.199.108.153
+@      3600   A        185.199.109.153
+@      3600   A        185.199.110.153
+@      3600   A        185.199.111.153
+@      3600   AAAA     2606:50c0:8000::153
+@      3600   AAAA     2606:50c0:8001::153
+@      3600   AAAA     2606:50c0:8002::153
+@      3600   AAAA     2606:50c0:8003::153
+www    3600   CNAME    ilovealsace.github.io.
+
+IMPORTANT
+---------
+1. Supprimer auparavant les anciens A/AAAA du nom @ qui pointent vers un ancien hébergement.
+2. Supprimer auparavant tout ancien A, AAAA ou CNAME portant le nom www.
+3. Ne pas supprimer les MX et TXT utilisés par les e-mails.
+4. Ne pas créer de redirection web BookMyName, et surtout pas de redirection transparente.
+5. Ne pas créer d’enregistrement générique *.
+6. Si des enregistrements CAA existent, ils doivent autoriser letsencrypt.org.
+7. Les valeurs CNAME doivent se terminer par un point chez BookMyName.
+
+Les jetons TXT de validation GitHub et Google ne peuvent pas être prédéfinis :
+ils seront fournis par GitHub et Google Search Console lors de la validation.

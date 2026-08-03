@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#254c3b">
+  <meta name="description" content="I Love Alsace — trois adresses de caractère entre forêt, Haut-Koenigsbourg et Val d’Argent.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://pierresvives.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="I Love Alsace">
+  <meta property="og:title" content="I Love Alsace — Gîtes et chambres de caractère">
+  <meta property="og:description" content="Trois adresses de caractère au cœur de l’Alsace.">
+  <meta property="og:url" content="https://pierresvives.com/">
+  <meta property="og:image" content="https://pierresvives.com/assets/images/logis/main.jpg">
+  <meta property="og:image:alt" content="Logis du Haut-Koenigsbourg dans la forêt alsacienne">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="I Love Alsace — Gîtes et chambres de caractère">
+  <meta name="twitter:description" content="Trois adresses de caractère au cœur de l’Alsace.">
+  <meta name="twitter:image" content="https://pierresvives.com/assets/images/logis/main.jpg">
+  <title>I Love Alsace — Gîtes et chambres de caractère</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="sitemap" type="application/xml" href="https://pierresvives.com/sitemap.xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://pierresvives.com/#website",
+        "url": "https://pierresvives.com/",
+        "name": "I Love Alsace",
+        "alternateName": "Pierres Vives",
+        "description": "Collection de gîtes, appartements et chambres en Alsace.",
+        "inLanguage": ["fr", "en", "de", "es", "it"]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://pierresvives.com/#hebergements",
+        "name": "Hébergements I Love Alsace",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "LodgingBusiness",
+              "name": "Logis du Haut-Koenigsbourg",
+              "image": "https://pierresvives.com/assets/images/logis/main.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Lieu-dit Schaentzel",
+                "postalCode": "68590",
+                "addressLocality": "Thannenkirch",
+                "addressCountry": "FR"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "LodgingBusiness",
+              "name": "Domaine du Haut-Koenigsbourg",
+              "image": "https://pierresvives.com/assets/images/domaine/main.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Route du Haut-Koenigsbourg",
+                "postalCode": "67600",
+                "addressLocality": "Orschwiller",
+                "addressCountry": "FR"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "LodgingBusiness",
+              "name": "Château Lacour",
+              "image": "https://pierresvives.com/assets/images/chateau/main.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "237 rue Clemenceau",
+                "postalCode": "68160",
+                "addressLocality": "Sainte-Marie-aux-Mines",
+                "addressCountry": "FR"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Aller au contenu</a>
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#/" aria-label="I Love Alsace — accueil">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img"><path d="M32 55C14 43 7 34 7 23c0-8 6-14 14-14 5 0 9 2 11 7 3-5 7-7 12-7 8 0 14 6 14 14 0 11-8 20-26 32Z"/><path class="brand-river" d="M20 24c7 2 12 7 13 14 1 5 4 8 10 10"/></svg>
+      </span>
+      <span class="brand-text"><strong>I Love</strong><span>Alsace</span></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="#/" data-i18n="nav.home">Accueil</a>
+      <button class="mega-trigger" id="mega-trigger" type="button" aria-expanded="false" aria-controls="mega-menu">
+        <span data-i18n="nav.properties">Nos adresses</span>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7 5 5 5-5"/></svg>
+      </button>
+      <a href="#/experience" data-i18n="nav.experience">L’Alsace à vivre</a>
+      <a href="#/contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <label class="language-picker" aria-label="Langue">
+        <span class="sr-only">Langue</span>
+        <select id="language-select">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+          <option value="de">DE</option>
+          <option value="es">ES</option>
+          <option value="it">IT</option>
+        </select>
+      </label>
+      <a class="header-book" href="#/properties" data-i18n="actions.book">Réserver</a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mega-menu" id="mega-menu" aria-hidden="true">
+    <div class="mega-inner">
+      <div class="mega-intro">
+        <p class="eyebrow" data-i18n="mega.eyebrow">Trois atmosphères</p>
+        <h2 data-i18n="mega.title">Choisissez votre Alsace.</h2>
+        <p data-i18n="mega.text">Forêt, panorama ou demeure historique : chaque adresse propose une manière différente de séjourner.</p>
+        <a href="#/properties" class="text-link" data-close-menu data-i18n="mega.all">Voir toutes les adresses</a>
+      </div>
+      <div class="mega-properties" id="mega-properties"></div>
+    </div>
+  </div>
+
+  <aside class="mobile-panel" id="mobile-panel" aria-hidden="true">
+    <div class="mobile-panel-inner">
+      <a href="#/" data-close-mobile data-i18n="nav.home">Accueil</a>
+      <a href="#/properties" data-close-mobile data-i18n="nav.properties">Nos adresses</a>
+      <div class="mobile-property-links" id="mobile-property-links"></div>
+      <a href="#/experience" data-close-mobile data-i18n="nav.experience">L’Alsace à vivre</a>
+      <a href="#/contact" data-close-mobile data-i18n="nav.contact">Contact</a>
+    </div>
+  </aside>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div>
+        <a class="brand footer-brand" href="#/">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 55C14 43 7 34 7 23c0-8 6-14 14-14 5 0 9 2 11 7 3-5 7-7 12-7 8 0 14 6 14 14 0 11-8 20-26 32Z"/><path class="brand-river" d="M20 24c7 2 12 7 13 14 1 5 4 8 10 10"/></svg></span>
+          <span class="brand-text"><strong>I Love</strong><span>Alsace</span></span>
+        </a>
+        <p data-i18n="footer.tagline">Trois adresses de caractère au cœur de l’Alsace.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h3 data-i18n="footer.discover">Découvrir</h3>
+          <a href="#/properties" data-i18n="nav.properties">Nos adresses</a>
+          <a href="#/experience" data-i18n="nav.experience">L’Alsace à vivre</a>
+          <a href="#/contact" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div>
+          <h3 data-i18n="footer.information">Informations</h3>
+          <a href="#/legal" data-i18n="footer.legal">Mentions légales</a>
+          <a href="#/privacy" data-i18n="footer.privacy">Confidentialité</a>
+          <a href="#/accessibility" data-i18n="footer.accessibility">Accessibilité</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year"></span> I Love Alsace</span>
+      <span data-i18n="footer.bookingNotice">Réservations sécurisées via Booking.com</span>
+    </div>
+  </footer>
+
+  <dialog class="unit-dialog" id="unit-dialog">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="Fermer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+    <div id="unit-dialog-content"></div>
+  </dialog>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
