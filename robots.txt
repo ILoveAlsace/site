@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://pierresvives.com/sitemap.xml
+Sitemap: https://pierresvives.com/sitemap-images.xml

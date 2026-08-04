@@ -23,10 +23,10 @@
   <link rel="icon" href="assets/images/maison-champignon-logo.png" type="image/png" sizes="512x512">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="sitemap" type="application/xml" href="https://pierresvives.com/sitemap.xml">
-  <link rel="preload" as="image" href="assets/images/logis/units/cinquieme-saison/thumb/06-dsc-2330.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/logis/units/cinquieme-saison/thumb/06-cinquieme-saison-hebergement-orschwiller.webp" fetchpriority="high">
   <link rel="preconnect" href="https://widgets.ke-booking.com" crossorigin>
   <link rel="preconnect" href="https://reservation.v2.ke-booking.com" crossorigin>
-  <link rel="stylesheet" href="assets/css/styles-v8.css">
+  <link rel="stylesheet" href="assets/css/styles-v8.css?v=9">
   <style>
     .brand-mark {
       overflow: hidden;
@@ -72,7 +72,7 @@
             "item": {
               "@type": "LodgingBusiness",
               "name": "Logis du Haut-Koenigsbourg",
-              "url": "https://pierresvives.com/#/property/logis",
+              "url": "https://pierresvives.com/etablissements/logis-du-haut-koenigsbourg/",
               "image": "https://pierresvives.com/assets/images/logis/main.jpg",
               "email": "stephanie@pierresvives.com",
               "telephone": "+33610297633",
@@ -91,7 +91,7 @@
             "item": {
               "@type": "LodgingBusiness",
               "name": "Domaine du Haut-Koenigsbourg",
-              "url": "https://pierresvives.com/#/property/domaine",
+              "url": "https://pierresvives.com/etablissements/domaine-du-haut-koenigsbourg/",
               "image": "https://pierresvives.com/assets/images/domaine/main.jpg",
               "email": "stephanie@pierresvives.com",
               "telephone": "+33610297633",
@@ -110,7 +110,7 @@
             "item": {
               "@type": "LodgingBusiness",
               "name": "Château Lacour",
-              "url": "https://pierresvives.com/#/property/chateau",
+              "url": "https://pierresvives.com/etablissements/chateau-lacour/",
               "image": "https://pierresvives.com/assets/images/chateau/main.jpg",
               "email": "stephanie@pierresvives.com",
               "telephone": "+33610297633",
@@ -128,6 +128,13 @@
     ]
   }
   </script>
+  <link rel="alternate" hreflang="fr" href="https://pierresvives.com/">
+  <link rel="alternate" hreflang="en" href="https://pierresvives.com/en/">
+  <link rel="alternate" hreflang="de" href="https://pierresvives.com/de/">
+  <link rel="alternate" hreflang="es" href="https://pierresvives.com/es/">
+  <link rel="alternate" hreflang="it" href="https://pierresvives.com/it/">
+  <link rel="alternate" hreflang="x-default" href="https://pierresvives.com/">
+  <link rel="stylesheet" href="/assets/css/seo-v9.css">
 </head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPNJGVE8WN"></script>
@@ -154,9 +161,9 @@
         <span data-i18n="nav.properties">Nos adresses</span>
         <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7 5 5 5-5"/></svg>
       </button>
-      <a href="#/experience" data-i18n="nav.experience">L’Alsace à vivre</a>
-      <a href="#/balade-visuelle" data-i18n="nav.visualWalk">Balade visuelle</a>
-      <a href="#/contact" data-i18n="nav.contact">Contact</a>
+      <a href="/guide/" data-i18n="nav.experience">L’Alsace à vivre</a>
+      <a href="/balade-visuelle/" data-i18n="nav.visualWalk">Balade visuelle</a>
+      <a href="/contact/" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="header-actions">
@@ -172,7 +179,7 @@
           <option value="it">IT</option>
         </select>
       </label>
-      <a class="header-book" href="#/booking" data-i18n="actions.book">Réserver</a>
+      <a class="header-book" href="/reservation/" data-i18n="actions.book">Réserver</a>
       <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
         <span></span><span></span>
       </button>
@@ -198,7 +205,7 @@
       <div class="mobile-property-links" id="mobile-property-links"></div>
       <a href="#/experience" data-close-mobile data-i18n="nav.experience">L’Alsace à vivre</a>
       <a href="#/balade-visuelle" data-close-mobile data-i18n="nav.visualWalk">Balade visuelle</a>
-      <a href="#/booking" data-close-mobile data-i18n="nav.booking">Réserver</a>
+      <a href="/reservation/" data-close-mobile data-i18n="nav.booking">Réserver</a>
       <a href="#/contact" data-close-mobile data-i18n="nav.contact">Contact</a>
       <div class="mobile-direct-contact">
         <a href="tel:+33610297633">+33 6 10 29 76 33</a>
@@ -209,9 +216,11 @@
 
   <main id="app" tabindex="-1"></main>
 
+
+  <section class="seo-home-static-links" aria-label="Le Carnet PierresVives"><div class="seo-shell"><div><p class="seo-eyebrow">Le Carnet PierresVives</p><h2 class="seo-h2">Préparer et réserver votre séjour</h2></div><nav><a href="/hebergements/">Tous les hébergements</a><a href="/etablissements/">Nos trois adresses</a><a href="/guide/">Guides locaux</a><a href="/trouver-mon-hebergement/">Trouver mon hébergement</a><a href="/balade-visuelle/">Balade visuelle</a><a href="/reservation/">Réservation directe</a></nav></div></section>
   <div class="mobile-book-bar" aria-label="Actions rapides">
     <a class="call" href="tel:+33610297633" data-i18n="mobile.call">Appeler</a>
-    <a class="book" href="#/booking" data-i18n="actions.bookNow">Réserver maintenant</a>
+    <a class="book" href="/reservation/" data-i18n="actions.bookNow">Réserver maintenant</a>
   </div>
 
   <footer class="site-footer">
@@ -226,10 +235,10 @@
       <div class="footer-links">
         <div>
           <h3 data-i18n="footer.discover">Découvrir</h3>
-          <a href="#/properties" data-i18n="nav.properties">Nos adresses</a>
-          <a href="#/experience" data-i18n="nav.experience">L’Alsace à vivre</a>
-          <a href="#/balade-visuelle" data-i18n="nav.visualWalk">Balade visuelle</a>
-          <a href="#/contact" data-i18n="nav.contact">Contact</a>
+          <a href="/etablissements/" data-i18n="nav.properties">Nos adresses</a>
+          <a href="/guide/" data-i18n="nav.experience">L’Alsace à vivre</a>
+          <a href="/balade-visuelle/" data-i18n="nav.visualWalk">Balade visuelle</a>
+          <a href="/contact/" data-i18n="nav.contact">Contact</a>
         </div>
         <div>
           <h3 data-i18n="footer.information">Informations</h3>
@@ -241,7 +250,7 @@
           <h3 data-i18n="footer.contact">Contact direct</h3>
           <a href="tel:+33610297633">+33 6 10 29 76 33</a>
           <a href="mailto:stephanie@pierresvives.com">stephanie@pierresvives.com</a>
-          <a href="#/booking" data-i18n="actions.book">Réserver</a>
+          <a href="/reservation/" data-i18n="actions.book">Réserver</a>
         </div>
       </div>
     </div>
@@ -258,7 +267,7 @@
     <div id="unit-dialog-content"></div>
   </dialog>
 
-  <script src="assets/js/data-v8.js"></script>
-  <script src="assets/js/app-v8.js"></script>
+  <script src="assets/js/data-v9.js"></script>
+  <script src="assets/js/app-v9.js"></script>
 </body>
 </html>
