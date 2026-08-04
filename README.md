@@ -32,3 +32,16 @@ La page utilise désormais :
 - les coordonnées directes PierresVives.
 
 Le paramètre de version ajouté aux fichiers CSS et JavaScript évite que le navigateur conserve l’ancienne page en cache.
+
+
+## Version 5 — photographies HD et parcours de réservation
+
+- 77 photographies originales intégrées pour 7 hébergements.
+- Vignettes WebP pour accélérer les listes ; images HD chargées dans les galeries.
+- Filtre par nom et capacité sur la page du Logis.
+- Bouton de réservation directe sur chaque carte.
+- Galerie complète avec miniatures et navigation.
+- Module KE-Booking remonté plus haut sur l’accueil.
+- Barre de réservation persistante sur mobile.
+
+Le nouvel `index.html` charge `data-v5.js`, `app-v5.js` et `styles-v5.css`, ce qui évite tout conflit avec le cache des versions précédentes.
