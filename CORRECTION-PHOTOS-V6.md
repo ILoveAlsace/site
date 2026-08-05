@@ -21,4 +21,4 @@ La galerie mélangeant photos du manoir et intérieurs d’hébergements a été
 La photo extérieure du manoir reste utilisée comme image principale et pour la situation.
 
 ## Adresse corrigée
-Lieu d’Illenzel, 67600 Orschwiller, France.
+Col du Schaentzel, 67600 Orschwiller, France.
