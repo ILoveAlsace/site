@@ -159,8 +159,8 @@
         name: "Logis du Haut-Koenigsbourg",
         typeKey: "type.gites",
         city: "Orschwiller",
-        address: "Lieu d’Illenzel, 67600 Orschwiller, France",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Lieu+d%27Illenzel+67600+Orschwiller+France",
+        address: "Col du Schaentzel, 67600 Orschwiller, France",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Col+du+Schaentzel+67600+Orschwiller+France",
         hero: "assets/images/logis/main.jpg",
         gallery: [
           "assets/images/logis/main.jpg"
@@ -169,18 +169,18 @@
         checkout: "08:00–10:00",
         tagline: ml("Un manoir en pleine forêt, sous le Haut-Kœnigsbourg.", "A manor in the forest below Haut-Koenigsbourg Castle.", "Ein Herrenhaus im Wald unterhalb der Hohkönigsburg.", "Una mansión en pleno bosque, bajo el castillo de Haut-Koenigsbourg.", "Una dimora nel bosco, sotto il castello di Haut-Koenigsbourg."),
         description: ml(
-          "Au Lieu d’Illenzel, à Orschwiller, le Logis du Haut-Koenigsbourg réunit des gîtes et appartements indépendants dans un ancien manoir entouré de forêt. L’adresse associe calme, cuisines privatives, vues sur le massif et accès aux itinéraires de randonnée.",
-          "At Lieu d’Illenzel in Orschwiller, Logis du Haut-Koenigsbourg brings together independent cottages and apartments in a former manor surrounded by forest. The setting combines peace, private kitchens, mountain views and access to hiking routes.",
-          "Am Lieu d’Illenzel in Orschwiller vereint das Logis du Haut-Koenigsbourg unabhängige Ferienwohnungen und Apartments in einem ehemaligen, vom Wald umgebenen Herrenhaus. Ruhe, private Küchen, Bergblicke und der Zugang zu Wanderwegen prägen den Aufenthalt.",
-          "En el Lieu d’Illenzel, en Orschwiller, el Logis du Haut-Koenigsbourg reúne casas rurales y apartamentos independientes en una antigua mansión rodeada de bosque. Combina tranquilidad, cocinas privadas, vistas al macizo y acceso a rutas de senderismo.",
-          "Al Lieu d’Illenzel, a Orschwiller, il Logis du Haut-Koenigsbourg riunisce gîte e appartamenti indipendenti in un’antica dimora circondata dal bosco. Offre tranquillità, cucine private, viste sul massiccio e accesso ai sentieri."
+          "Au Col du Schaentzel, à Orschwiller, le Logis du Haut-Koenigsbourg réunit des gîtes et appartements indépendants dans un ancien manoir entouré de forêt. L’adresse associe calme, cuisines privatives, vues sur le massif et accès aux itinéraires de randonnée.",
+          "At Col du Schaentzel in Orschwiller, Logis du Haut-Koenigsbourg brings together independent cottages and apartments in a former manor surrounded by forest. The setting combines peace, private kitchens, mountain views and access to hiking routes.",
+          "Am Col du Schaentzel in Orschwiller vereint das Logis du Haut-Koenigsbourg unabhängige Ferienwohnungen und Apartments in einem ehemaligen, vom Wald umgebenen Herrenhaus. Ruhe, private Küchen, Bergblicke und der Zugang zu Wanderwegen prägen den Aufenthalt.",
+          "En el Col du Schaentzel, en Orschwiller, el Logis du Haut-Koenigsbourg reúne casas rurales y apartamentos independientes en una antigua mansión rodeada de bosque. Combina tranquilidad, cocinas privadas, vistas al macizo y acceso a rutas de senderismo.",
+          "Al Col du Schaentzel, a Orschwiller, il Logis du Haut-Koenigsbourg riunisce gîte e appartamenti indipendenti in un’antica dimora circondata dal bosco. Offre tranquillità, cucine private, viste sul massiccio e accesso ai sentieri."
         ),
         locationText: ml(
-          "L’établissement se situe au Lieu d’Illenzel, 67600 Orschwiller, France, dans un environnement forestier proche du Haut-Kœnigsbourg et de la Route des Vins. Sélestat, les villages viticoles et les principaux sites touristiques du centre de l’Alsace sont rapidement accessibles en voiture.",
-          "The property is located at Lieu d’Illenzel, 67600 Orschwiller, France, in a forest setting close to Haut-Koenigsbourg Castle and the Alsace Wine Route. Sélestat, wine villages and the main attractions of central Alsace are easily reached by car.",
-          "Das Anwesen liegt am Lieu d’Illenzel, 67600 Orschwiller, Frankreich, in einer Waldlandschaft nahe der Hohkönigsburg und der Elsässer Weinstraße. Sélestat, die Weindörfer und die wichtigsten Sehenswürdigkeiten des mittleren Elsass sind schnell mit dem Auto erreichbar.",
-          "El establecimiento se encuentra en Lieu d’Illenzel, 67600 Orschwiller, Francia, en un entorno forestal cerca del castillo de Haut-Koenigsbourg y de la Ruta del Vino. Sélestat, los pueblos vinícolas y los principales lugares del centro de Alsacia son fácilmente accesibles en coche.",
-          "La struttura si trova al Lieu d’Illenzel, 67600 Orschwiller, Francia, in un ambiente boschivo vicino al castello di Haut-Koenigsbourg e alla Strada dei Vini. Sélestat, i borghi vinicoli e le principali attrazioni dell’Alsazia centrale sono facilmente raggiungibili in auto."
+          "L’établissement se situe au Col du Schaentzel, 67600 Orschwiller, France, dans un environnement forestier proche du Haut-Kœnigsbourg et de la Route des Vins. Sélestat, les villages viticoles et les principaux sites touristiques du centre de l’Alsace sont rapidement accessibles en voiture.",
+          "The property is located at Col du Schaentzel, 67600 Orschwiller, France, in a forest setting close to Haut-Koenigsbourg Castle and the Alsace Wine Route. Sélestat, wine villages and the main attractions of central Alsace are easily reached by car.",
+          "Das Anwesen liegt am Col du Schaentzel, 67600 Orschwiller, Frankreich, in einer Waldlandschaft nahe der Hohkönigsburg und der Elsässer Weinstraße. Sélestat, die Weindörfer und die wichtigsten Sehenswürdigkeiten des mittleren Elsass sind schnell mit dem Auto erreichbar.",
+          "El establecimiento se encuentra en Col du Schaentzel, 67600 Orschwiller, Francia, en un entorno forestal cerca del castillo de Haut-Koenigsbourg y de la Ruta del Vino. Sélestat, los pueblos vinícolas y los principales lugares del centro de Alsacia son fácilmente accesibles en coche.",
+          "La struttura si trova al Col du Schaentzel, 67600 Orschwiller, Francia, in un ambiente boschivo vicino al castello di Haut-Koenigsbourg e alla Strada dei Vini. Sélestat, i borghi vinicoli e le principali attrazioni dell’Alsazia centrale sono facilmente raggiungibili in auto."
         ),
         highlights: ["feature.wifi", "feature.parking", "feature.kitchen", "feature.mountainView", "feature.pets", "feature.family"],
         units: [
